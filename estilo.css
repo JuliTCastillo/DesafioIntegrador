@@ -1,0 +1,57 @@
+.boxSection{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(imagenes/ba1.jpg); 
+    background-size: cover;
+}
+.btn1{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+}
+#btn2{
+    background-color: #26d326;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #26d326;
+    color: white;
+}
+.btn1:hover{
+    background-color: white;
+    color:black;
+}
+.imagen{
+    height:350px;
+    object-fit:cover;
+}
+.card{
+    margin: 0px 20px 0px 20px;
+}
+.etiqueta{
+    display: flex;
+}
+.palabra{
+    margin-right: 10px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: white;
+}
+.subrayado{
+    border-bottom: 1px dotted #000;
+}
+.btnEnviar{
+    background-color: #26d326;
+    border: 2px solid #26d326;
+    color: white;
+    border-radius: 5px;
+}
+.boxFooter{
+    background-color: #2c2c5f;
+}
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color: rgb(202, 170, 170);
+}
